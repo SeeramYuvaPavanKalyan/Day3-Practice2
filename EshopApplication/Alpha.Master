@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Alpha.master.cs" Inherits="EshopApplication.Alpha" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <h1>ESHOP - Experience & Explore</h1>
+        <nav>
+            <a href="Default.aspx">Home</a> | <a href="AboutUs.aspx">About Us</a> | <a href="ContactUs.aspx">Contact Us</a><br />
+            <br />
+            <br />
+        </nav>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <h4>
+            &nbsp;</h4>
+        <h4>
+            &nbsp;</h4>
+        <h4>
+            &nbsp;</h4>
+        <h4>
+            &nbsp;</h4>
+        <h4>
+            @Copyright - All Rights Reserved by ESHOP - PK Ltd 
+
+        </h4>
+    </form>
+</body>
+</html>
